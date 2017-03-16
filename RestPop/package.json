@@ -1,0 +1,39 @@
+{
+  "name": "restpop",
+  "version": "1.0.0",
+  "description": "Rest Pop its an API rest like Wallapop",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . && jshint --exclude ./node_modules .",
+    "populateDB": "node ./utilities/populateDB.js",
+    "start": "node bin/www",
+    "docs":"apidoc -i ./routes -o ./doc/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wholedev/RestPop.git"
+  },
+  "keywords": [
+    "Restify",
+    "NodePop"
+  ],
+  "author": "Adrián Polo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wholedev/RestPop/issues"
+  },
+  "homepage": "https://github.com/wholedev/RestPop#readme",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "js-sha512": "^0.3.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.8",
+    "restify": "^4.3.0",
+    "validator": "^6.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "jshint": "^2.9.4"
+  }
+}

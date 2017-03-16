@@ -1,0 +1,82 @@
+{
+  "NAME_REQUIRED": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Se require nombre",
+      "EN": "name required"
+    }
+  },
+  "EMAIL_REQUIRED": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Se require email",
+      "EN": "email required"
+    }
+  },
+  "INVALID_MAIL": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Mail invalido",
+      "EN": "invalid mail"
+    }
+  },
+  "PASSWORD_REQUIRED": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Se require password",
+      "EN": "password required"
+    }
+  },
+  "EMAIL_ALREADY_REGISTERED": {
+    "status": 409,
+    "code": 1,
+    "message": {
+      "ES": "El email ya esta registrado",
+      "EN": "email already registered"
+    }
+  },
+  "REGISTER_USER": {
+    "status": 500,
+    "code": 1,
+    "message": {
+      "ES": "Excepcion registrando usuario",
+      "EN": "Problems in the register user"
+    }
+  },
+  "USER_NOT_FOUND": {
+    "status": 409,
+    "code": 1,
+    "message": {
+      "ES": "Usuario no existe",
+      "EN": "User not exists"
+    }
+  },
+  "DATABASE": {
+    "status": 500,
+    "code": 1,
+    "message": {
+      "ES": "Error con la base de datos",
+      "EN": "Error with database"
+    }
+  },
+  "INVALID_PRICE": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Precio invalido",
+      "EN": "Invalid Price"
+    }
+  },
+  "TOKEN_REQUIRED": {
+    "status": 401,
+    "code": 1,
+    "message": {
+      "ES": "Token Requerido",
+      "EN": "Required Token"
+    }
+  }
+}
