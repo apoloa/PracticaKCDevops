@@ -28,3 +28,5 @@ Dentro de la carpeta RestPop esta tanto el Dockerfile como el script que crea el
 ``` bash
 docker login -u <user> -p <password>
 ```
+
+se ha activado el header **X-Owner** como **adrian** para los ficheros estaticos. 
