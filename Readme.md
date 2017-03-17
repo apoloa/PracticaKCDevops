@@ -1,5 +1,5 @@
 # Readme
 
+Fichero Ejercicio 1 Contiene la resolución del primer ejercicio
 
-- [Ejercicio 1](./Ejercicio 1.md)
-- [Ejercicio 2](./Ejercicio 2.md)
+Fichero Ejercicio 2 Contiene la resolución del segundo ejercicio
